@@ -1,0 +1,194 @@
+.page4 {
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .left4 {
+        .leftContainer4 {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.068);
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 75vh;
+            width: 60vw;
+
+            .form {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                align-items: center;
+                justify-content: center;
+
+                input {
+                    width: 400px;
+                    height: 40px;
+                    border-radius: 12px;
+                    border: solid #40bf2b;
+                    transition: 0.2s all ease;
+
+                    &:hover {
+                        background-color: #41bf2b13;
+                    }
+                }
+
+                textarea {
+                    border-radius: 12px;
+                    width: 822px;
+                    border: solid #40bf2b;
+                    resize: none;
+                    transition: 0.2s all ease;
+
+                    &:hover {
+                        background-color: #41bf2b13;
+                    }
+                }
+            }
+
+            .send-btn {
+                background-color: #40bf2b;
+                border: none;
+                color: #ffffff;
+                border-radius: 12px;
+                height: 50px;
+                width: 200px;
+                transition: 0.2s all ease;
+                font-family: "RabbidHighwaySignIIRegular";
+                font-weight: normal;
+                font-style: normal;
+
+                &:hover {
+                    background-color: #41bf2b13;
+                    color: #40bf2b;
+                    border: solid #40bf2b 2px;
+                }
+
+                &:active {
+                    width: 198px;
+                    height: 38px;
+                }
+            }
+
+            .contact {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                width: 80%;
+
+                h3 {
+                    color: #000000;
+                }
+
+                .phone {
+                    width: 350px;
+                    height: 100px;
+                    border-radius: 12px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    color: #40bf2b;
+                    transition: all 0.2s ease;
+
+                    &:hover {
+                        background-color: #41bf2b13;
+                    }
+
+                    .phoneContent {
+                        gap: 20px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 20px;
+                        width: 100%;
+                    }
+
+                    .green-phone {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+
+                .mail {
+                    width: 350px;
+                    height: 100px;
+                    border-radius: 12px;
+                    color: #40bf2b;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    transition: all 0.2s ease;
+
+                    &:hover {
+                        background-color: #41bf2b13;
+                    }
+                }
+            }
+        }
+    }
+
+    .right4 {
+        width: 30vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+        .rightContainer4 {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+
+            .green {
+                background-color: #40bf2b;
+            }
+
+            .slider4 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            h1 {
+                margin-bottom: 50px;
+            }
+
+            .sliderContainer {
+                width: 30vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+
+                .arrow-next {
+                    width: 50px;
+                    transform: rotate(90deg);
+                }
+
+                .arrow-back {
+                    width: 50px;
+                    transform: rotate(-90deg);
+                }
+
+                .slider {
+                    height: 400px;
+                    width: 300px;
+                    border-radius: 12px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #48484854;
+                    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.068);
+                }
+            }
+        }
+    }
+}

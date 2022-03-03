@@ -1,0 +1,96 @@
+.page3 {
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .top3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 60vh;
+        background-color: #ffffff;
+        box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.068);
+
+        .left3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .leftContainer3 {
+                background-image: url(../../../public/assets/impression-garage-automobile.jpeg);
+                background-size: cover;
+                width: 60vw;
+                height: 60vh;
+
+                .horaires {
+                    margin-top: 45vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    background-color: #ffffffdb;
+                    height: 5vw;
+
+                    .jour {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+        .right3 {
+            width: 40vw;
+
+            .rightContainer3 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                justify-content: space-around;
+                gap: 10px;
+
+                .head {
+                    display: flex;
+
+                    .green-adress {
+                        width: 40px;
+                    }
+                }
+
+                .maps {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #40BF2B;
+                    border-radius: 12px;
+                    height: 50vh;
+                    width: 30vw;
+                }
+
+                h4 {
+                    color: #40BF2B;
+                }
+            }
+        }
+    }
+
+    .bottom3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .slider3 {
+            background-color: #87878754;
+            height: 25vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.103);
+        }
+    }
+}
